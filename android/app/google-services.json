@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "102132098358",
+    "project_id": "fb-chat-stemmone",
+    "storage_bucket": "fb-chat-stemmone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102132098358:android:95ab0bcf146990ab997f97",
+        "android_client_info": {
+          "package_name": "eu.org.raannakasturi.fbchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102132098358-ml99u8e0iae4509i9ogld3h3bp76jp56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.org.raannakasturi.fbchat",
+            "certificate_hash": "a26c1774519c0071c52f6547991d4a0324e167f9"
+          }
+        },
+        {
+          "client_id": "102132098358-113fbf75mahegjbu7j4s1819jhb9prsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbTEgJAOUNYbjTtuwo7gLfLm5UKqNWkkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102132098358-113fbf75mahegjbu7j4s1819jhb9prsb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "102132098358-b0b1655m4ob75ce73vblqg2ovjdduglv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "eu.org.raannakasturi.fbchat.fbChat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
