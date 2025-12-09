@@ -66,20 +66,9 @@ class LoginView extends GetView<LoginController> {
                     ]),
                   ),
                 ),
-                SizedBox.shrink(),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    OutlinedButton(
-                      onPressed: controller.signInUserWithGoogle,
-                      child: const Text("Login with Google"),
-                    ),
-                    ElevatedButton(
-                      onPressed: controller.signInUserWithPassword,
-                      child: const Text("Login"),
-                    ),
-                  ],
+                ElevatedButton(
+                  onPressed: controller.signInUserWithPassword,
+                  child: const Text("Login"),
                 ),
                 const SizedBox(height: 20),
                 Text.rich(

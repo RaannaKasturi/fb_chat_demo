@@ -95,19 +95,9 @@ class SignupView extends GetView<SignupController> {
                     ]),
                   ),
                   SizedBox.shrink(),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      OutlinedButton(
-                        onPressed: controller.signUpUserWithGoogle,
-                        child: const Text("Continue with Google"),
-                      ),
-                      ElevatedButton(
-                        onPressed: controller.signUpUserWithPassword,
-                        child: const Text("Sign Up"),
-                      ),
-                    ],
+                  ElevatedButton(
+                    onPressed: controller.signUpUserWithPassword,
+                    child: const Text("Sign Up"),
                   ),
                   const SizedBox(height: 20),
                   Text.rich(
